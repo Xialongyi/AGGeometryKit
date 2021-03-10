@@ -236,24 +236,4 @@
     return CGPointMake(self.boundsWidthHalf, self.boundsHeightHalf);
 }
 
-- (CGFloat)centerX
-{
-    return self.center.x;
-}
-
-- (void)setCenterX:(CGFloat)value
-{
-    self.center = CGPointMake(value, self.center.y);
-}
-
-- (CGFloat)centerY
-{
-    return self.center.y;
-}
-
-- (void)setCenterY:(CGFloat)value
-{
-    self.center = CGPointMake(self.center.x, value);
-}
-
 @end

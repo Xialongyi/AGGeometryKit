@@ -52,7 +52,4 @@
 @property (nonatomic, readonly) CGFloat boundsWidthHalf;
 @property (nonatomic, readonly) CGFloat boundsHeightHalf;
 
-@property (nonatomic, assign) CGFloat centerX;
-@property (nonatomic, assign) CGFloat centerY;
-
 @end
